@@ -1,0 +1,27 @@
+.player.music {
+  background-color: #0f172A !important ;
+  height: 6rem;
+}
+.rhap_time,
+.rhap_current-time {
+  color: white !important ;
+}
+
+::selection {
+  background-color: transparent;
+  color:turquoise ;
+}
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
